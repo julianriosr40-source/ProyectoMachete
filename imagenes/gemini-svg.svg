@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 350" width="100%" height="100%">
+  <defs>
+    <!-- Filtro sutil para realzar bordes -->
+    <filter id="subtle-shadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-opacity="0.15" />
+    </filter>
+  </defs>
+
+  <g filter="url(#subtle-shadow)" stroke-linejoin="round" stroke-linecap="round">
+    <!-- ==================== MANGO ==================== -->
+    <!-- Base / Pomo -->
+    <polygon points="50,165 80,162 98,172 90,205 70,225 45,215 42,185" fill="#803816" stroke="#2B1408" stroke-width="4" />
+    <polygon points="50,165 72,170 65,210 45,215 42,185" fill="#5E260D" stroke="#2B1408" stroke-width="3" />
+    <polygon points="72,170 80,162 98,172 90,205 65,210" fill="#9C471C" stroke="#2B1408" stroke-width="3" />
+
+    <!-- Empuñadura - Segmentos facetados (Grip) -->
+    <!-- Segmento 1 -->
+    <polygon points="98,172 135,166 122,206 90,205" fill="#8A3E17" stroke="#2B1408" stroke-width="3" />
+    <polygon points="98,172 135,166 112,188" fill="#B05625" stroke="#2B1408" stroke-width="2" />
+    <polygon points="112,188 135,166 122,206" fill="#6A2E10" stroke="#2B1408" stroke-width="2" />
+
+    <!-- Segmento 2 -->
+    <polygon points="135,166 175,163 160,210 122,206" fill="#9C471C" stroke="#2B1408" stroke-width="3" />
+    <polygon points="135,166 175,163 148,188" fill="#BC602A" stroke="#2B1408" stroke-width="2" />
+    <polygon points="148,188 175,163 160,210" fill="#6E3011" stroke="#2B1408" stroke-width="2" />
+
+    <!-- Segmento 3 -->
+    <polygon points="175,163 218,162 205,212 160,210" fill="#8A3E17" stroke="#2B1408" stroke-width="3" />
+    <polygon points="175,163 218,162 192,188" fill="#B05625" stroke="#2B1408" stroke-width="2" />
+    <polygon points="192,188 218,162 205,212" fill="#6A2E10" stroke="#2B1408" stroke-width="2" />
+
+    <!-- Segmento 4 -->
+    <polygon points="218,162 260,161 248,214 205,212" fill="#9C471C" stroke="#2B1408" stroke-width="3" />
+    <polygon points="218,162 260,161 236,188" fill="#C5672E" stroke="#2B1408" stroke-width="2" />
+    <polygon points="236,188 260,161 248,214" fill="#6E3011" stroke="#2B1408" stroke-width="2" />
+
+    <!-- Conexión a la guarda -->
+    <polygon points="260,161 285,161 278,216 248,214" fill="#6E3011" stroke="#2B1408" stroke-width="3" />
+    <polygon points="260,161 285,161 268,188" fill="#B05625" stroke="#2B1408" stroke-width="2" />
+
+    <!-- ==================== GUARDA ==================== -->
+    <path d="M 282,140 C 290,105 315,95 320,102 C 326,110 324,145 322,175 C 320,225 326,260 318,268 C 310,275 295,260 292,235 C 285,210 280,165 282,140 Z" fill="#6E3314" stroke="#241208" stroke-width="4" />
+    <!-- Facetas de luz y sombra de la guarda -->
+    <path d="M 282,140 C 290,105 315,95 320,102 C 322,120 312,175 310,200 C 305,225 295,260 292,235 Z" fill="#8D421B" />
+    <path d="M 320,102 C 326,110 324,145 322,175 C 320,225 326,260 318,268 C 314,260 310,230 310,200 C 312,175 320,120 320,102 Z" fill="#4A1E0A" />
+
+    <!-- ==================== HOJA (LOW POLY) ==================== -->
+    <!-- Contorno base general -->
+    <g stroke="#37434F" stroke-width="3.5">
+      <!-- Sector Posterior / Recazo -->
+      <polygon points="318,150 365,160 365,228 318,225" fill="#CAD3DB" />
+      <polygon points="318,150 365,160 338,188" fill="#E4EBF0" />
+      <polygon points="338,188 365,160 365,228" fill="#A8B4C0" />
+
+      <!-- Facetas Superiores (Lomo) -->
+      <polygon points="365,160 595,162 575,200 365,200" fill="#D6DFE6" />
+      <polygon points="365,160 595,162 540,175" fill="#EDF3F7" />
+      <polygon points="595,162 705,120 670,185 575,200" fill="#DDE5EB" />
+      <polygon points="705,120 890,123 760,185 670,185" fill="#E8EEF3" />
+      <polygon points="890,123 965,123 795,190 760,185" fill="#F4F8FA" />
+
+      <!-- Punta -->
+      <polygon points="965,123 940,165 795,190" fill="#CAD5DF" />
+      <polygon points="965,123 870,225 845,215 940,165" fill="#B3C0CC" />
+
+      <!-- Bisel Central -->
+      <polygon points="365,200 575,200 560,220 365,228" fill="#B9C5D1" />
+      <polygon points="575,200 635,230 560,220" fill="#93A2AF" />
+      <polygon points="575,200 670,185 635,230" fill="#AFC0CE" />
+      <polygon points="670,185 760,185 680,242 635,230" fill="#C5D2DD" />
+      <polygon points="760,185 795,190 725,248 680,242" fill="#A4B5C4" />
+      <polygon points="795,190 845,215 768,252 725,248" fill="#8899A8" />
+
+      <!-- Facetas Inferiores / Filo -->
+      <polygon points="365,228 560,220 590,234 365,245" fill="#8B9BAA" />
+      <polygon points="560,220 635,230 590,234" fill="#758594" />
+      <polygon points="635,230 680,242 650,248 590,234" fill="#9AAAB8" />
+      <polygon points="680,242 725,248 685,255 650,248" fill="#7D8D9C" />
+      <polygon points="725,248 768,252 720,260 685,255" fill="#9AAAB8" />
+      <polygon points="768,252 845,215 780,258 720,260" fill="#697785" />
+
+      <!-- Faceta de corte biselada inferior derecha -->
+      <polygon points="845,215 870,225 795,262 780,258" fill="#E2EBF0" />
+      <polygon points="365,245 590,234 720,260 795,262 780,258" fill="#CBD6E0" opacity="0.4" />
+    </g>
+
+    <!-- Línea longitudinal central distintiva -->
+    <line x1="365" y1="200" x2="575" y2="200" stroke="#FFFFFF" stroke-width="2.5" opacity="0.8" />
+    <line x1="575" y1="200" x2="760" y2="185" stroke="#FFFFFF" stroke-width="2" opacity="0.8" />
+    <line x1="760" y1="185" x2="965" y2="123" stroke="#FFFFFF" stroke-width="2.5" opacity="0.9" />
+  </g>
+</svg>
