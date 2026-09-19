@@ -105,6 +105,7 @@ a:hover {
     object-fit: cover;
     z-index: -1;
     pointer-events: none;
+    filter: blur(15px);
 }
 
 .twitter img {
@@ -114,4 +115,79 @@ a:hover {
 .instagram img {
     width: 30px;
     height: 30px;
+}
+
+
+.bloque1 {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #f0f0f0;
+    border-radius: 15px;
+    flex-direction: row-reverse;
+}
+
+.imagen_1bloque {
+    width: 80%;
+    max-width: 400px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border-radius: 15px;
+}
+
+.texto_bloque_1 {
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 20px;
+    line-height: 1.5;
+    color: #333333;
+    align-items: right;
+    max-width: 200px;
+    
+}
+
+
+.bloque2 {
+    width: fit-content;
+    display: flex;
+    margin-left: auto;
+    margin-right: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #f0f0f0;
+    border-radius: 15px;
+    
+}
+
+.imagen_2bloque {
+    width: 80%;
+    max-width: 400px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border-radius: 15px;
+}
+
+.texto_bloque_2 {
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 20px;
+    line-height: 1.5;
+    color: #333333;
+    align-items: right;
+    max-width: 200px;
+    
 }
