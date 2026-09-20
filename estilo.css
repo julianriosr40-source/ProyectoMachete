@@ -191,3 +191,19 @@ a:hover {
     max-width: 200px;
     
 }
+
+.columna_texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#boton{  
+    color: #151c25;         
+    margin-top: 7px;       
+    padding: 5px 14px;      
+    cursor: pointer;        
+    border-radius: 4px;     
+    font-family: 'Montserrat', sans-serif; 
+    background-color: #1c67f1; 
+    border : 1px solid #000102; 
+}
