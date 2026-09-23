@@ -291,3 +291,40 @@ a:hover {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+.boton_hamburguesa {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 5px 15px;
+} 
+
+@media (max-width: 768px) {
+    .boton_hamburguesa {
+        display: block; 
+        position: relative; 
+        z-index: 1001;      
+        margin: 10px;
+    }
+
+    .barra_navegacion {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 250px;
+        height: 100vh;      
+        background-color: #0d3a4e; 
+        flex-direction: column; 
+        justify-content: flex-start; 
+        padding-top: 150px;  
+        transition: left 0.7s ease; 
+        z-index: 1000;
+    }
+
+  
+    .barra_navegacion.menu_activo {
+        left: 0;
+    }
+}
