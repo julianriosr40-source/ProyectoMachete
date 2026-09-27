@@ -328,3 +328,57 @@ a:hover {
         left: 0;
     }
 }
+
+.texto_formulario {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 20px;
+    line-height: 1.5;
+    align-items: right;
+    max-width: 400px;
+    text-align: center;
+}
+
+.nombre_etiqueta_formulario {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 20px;
+    line-height: 1.5;
+    color: #333333;
+    align-items: right;
+    max-width: 400px;
+}
+
+.email_etiqueta_formulario {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 20px;
+    line-height: 1.5;
+    color: #333333;
+    align-items: right;
+    max-width: 400px;
+}
+.mensaje_etiqueta_formulario {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 20px;
+    line-height: 1.5;
+    color: #333333;
+    align-items: right;
+    max-width: 400px;
+}
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 15px;
+    padding: 20px;
+}
